@@ -1,0 +1,160 @@
+body{
+    width: 100%;
+    height:100%;
+    margin:0;
+    position: absolute;
+}
+#box{
+    width: 1000px;
+    height: 100%;
+    background-color: dodgerblue;
+    margin:0 auto;
+    position: relative;
+}
+#box_left{
+    width: 20%;
+    height: 100%;
+    color:white;
+    float: left;
+    background-color: rgb(46,48,50);
+}
+#box_left_head{
+    width: 100%;
+    height: 50px;
+
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    width: 100%;
+    height:300px;
+    margin-top: 25px;
+    border: 1px solid rgb(225,229,232);
+}
+#first_line{
+    padding-left: 15px;
+}
+.hover{
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.hover:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+#state{
+    height: 30px;
+    width: 100%;
+    padding-left: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+#box_left_bottom{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+#isConnect{
+    color:#46a3ff;
+   padding-left: 20px;
+}
+#box_right{
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: rgb(239,239,239);
+}
+/*#count{*/
+/*    width: 100%;*/
+/*    height:100%;*/
+/*}*/
+.box_right_sigle{
+    width: 80%;
+    height:100%;
+    position: absolute;
+}
+#count_head{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin:0 auto;
+    border-right: 1px solid rgb(239,239,239);
+
+}
+#zhanghu{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    line-height: 50px;
+    font-size: 1em;
+    padding-left: 30px;
+    font-size: 1em;
+}
+#newCount{
+    width: 100px;
+    height: 40px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 0px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+
+}
+.keys{
+    width: 95%;
+    background-color: white;
+    margin:0 auto;
+    border-right: 1px solid rgb(239,239,239);
+    margin-top: 50px;
+    word-wrap: break-word;
+    word-break: normal;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    padding:10px
+}
+#myorder_order table{
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+}
+.tr_left{
+    text-align: center;
+}
+#sure{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+#i_sure{
+    display: block;
+    margin:0 auto;
+    background-color: #5AA1FE;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: #5AA1FE;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+#block{
+    width: 100%;
+    height: 90%;
+    overflow-y:auto;
+}
+#block table{
+    background-color: white;
+
+}
+#dataTable{
+
+}

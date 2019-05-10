@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wallet</title>
+    <link rel="stylesheet" type="text/css" href="style/walet.css"/>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/walet.js"></script>
+</head>
+<body>
+<div id="box">
+    <div id="box_left">
+        <div id="box_left_head"><h2>Algorithm</h2></div>
+        <table>
+            <tr><td id="first_line">核心数据</td></tr>
+            <tr class="hover" id="left_count"><td class="left_world">账户信息</td></tr>
+            <tr class="hover" id="left_myorder"><td class="left_world">我的购买</td></tr>
+            <tr class="hover" id="left_trade"><td class="left_world">交易记录</td></tr>
+            <tr class="hover" id="left_remaind"><td class="left_world">获得收益</td></tr>
+            <tr class="hover" id="left_server"><td class="left_world">服务</td></tr>
+        </table>
+        <p id="state">连接状态:<span id="isConnect">已连接</span></p>
+        <div id="box_left_bottom"></div>
+    </div>
+    <div id="box_right">
+        <div id="count" class="box_right_sigle">
+            <div id="count_head">
+                <span id="zhanghu">账户信息</span>
+            </div>
+            <div id="publicKey" class="keys">公钥：</div>
+            <div id="privateKey" class="keys">私钥：</div>
+            <div id="address" class="keys">地址：</div>
+        </div>
+        <div id="myorder" class="box_right_sigle">
+            <div id="count_head">
+                <span id="zhanghu">我的购买</span>
+            </div>
+            <div id="myorder_order">
+            </div>
+            <div id="sure">
+
+            </div>
+
+        </div>
+        <div id="trade" class="box_right_sigle">
+            <div id="count_head">
+                <span id="zhanghu">交易记录</span>
+            </div>
+            <div id="block">
+
+            </div>
+
+        </div>
+        <div id="remaind" class="box_right_sigle">
+            <div id="count_head">
+                <span id="zhanghu">获得收益</span>
+            </div>
+        </div>
+        <div id="server" class="box_right_sigle">
+            <div id="count_head">
+                <span id="zhanghu">服务</span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
